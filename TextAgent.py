@@ -1,12 +1,13 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents import create_agent
 from dotenv import load_dotenv
+import streamlit as st
 import os
 import json
 
 load_dotenv()
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY= st.secrets["GOOGLE_API_KEY"]
 
 model = ChatGoogleGenerativeAI(
     model="gemini-3.1-flash-lite",
