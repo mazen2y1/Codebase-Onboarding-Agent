@@ -1,5 +1,5 @@
-streamlit
-python-dotenv
-google-genai
-langchain
-langchain-google-genai
+streamlit>=1.40.0
+python-dotenv>=1.0.1
+requests>=2.32.0
+langchain>=1.0.0,<2.0.0
+langchain-google-genai>=4.0.0

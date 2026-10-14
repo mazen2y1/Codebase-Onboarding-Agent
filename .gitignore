@@ -1,4 +1,10 @@
 .env
 .env.*
 !.env.example
-REPODATA/.env
+.streamlit/secrets.toml
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+REPODATA/
+REPOJSON/
